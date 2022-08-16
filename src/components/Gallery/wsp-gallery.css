@@ -117,10 +117,6 @@
   }
 }
 @media screen and (max-width: 500px) {
-  .galleryWrap .single {
-    width: 400px;
-
-  }
   .sliderWrap .btnPrev {
     left: 5%;
     top: 25%;
