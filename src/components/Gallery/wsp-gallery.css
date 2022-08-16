@@ -9,13 +9,12 @@
 }
 
 .galleryWrap .single {
-  width: 600px;
   cursor: pointer;
   border: 1px solid black;
 }
 
+
 .galleryWrap .single img {
-  width: 600px;
   min-height: 300px;
   max-width: 100%;
 }
@@ -38,8 +37,9 @@
   position: fixed;
   cursor: pointer;
   opacity: 0.6;
-  color: #ffffff;
   z-index: 9999;
+  color: #ffffff;
+
 }
 .btnClose{
   margin-top: 50px;
@@ -53,19 +53,15 @@
 
 .sliderWrap .btnClose {
   top: 40px;
-  right: 40px;
+  right: 100px;
 }
 
 .sliderWrap .btnPrev {
-  top: 50%;
-  transform: translateY(-50%);
-  left: 40px;
+  height: 40px;
 }
 
 .sliderWrap .btnNext {
-  top: 50%;
-  transform: translateY(-50%);
-  right: 40px;
+  height: 40px;
 }
 
 .fullScreenImage {
@@ -88,4 +84,53 @@
 }
 .container{
   width: 50%;
+}
+
+@media screen and (min-width: 1250px) {
+  .galleryWrap .single {
+    width: 600px;
+
+  }
+  .sliderWrap .btnPrev {
+    left: 20%;
+  }
+
+  .sliderWrap .btnNext {
+    right: 20%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .galleryWrap .single {
+    width: 400px;
+
+  }
+  .sliderWrap .btnPrev {
+    left: 5%;
+    top: 50%;
+
+  }
+
+  .sliderWrap .btnNext {
+    right: 5%;
+    top: 50%;
+
+  }
+}
+@media screen and (max-width: 500px) {
+  .galleryWrap .single {
+    width: 400px;
+
+  }
+  .sliderWrap .btnPrev {
+    left: 5%;
+    top: 25%;
+
+  }
+
+  .sliderWrap .btnNext {
+    right: 5%;
+    top: 25%;
+
+  }
+
 }

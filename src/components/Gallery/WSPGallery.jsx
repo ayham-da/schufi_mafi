@@ -10,7 +10,6 @@ import {
 import './wsp-gallery.css'
 import ReadMore from "./readMore";
 import Modal from "react-bootstrap/Modal";
-import Button from "react-bootstrap/Button";
 
 const WSPGallery = ({galleryImages}) => {
 
