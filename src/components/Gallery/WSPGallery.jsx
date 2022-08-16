@@ -50,7 +50,7 @@ const WSPGallery = ({galleryImages}) => {
                  animation={false}
                  size="lg"
                  aria-labelledby="contained-modal-title-vcenter"
-                 centered>
+                 >
             <Modal.Header closeButton>
               <Modal.Title>{galleryImages[slideNumber].title}</Modal.Title>
             </Modal.Header>
