@@ -1,0 +1,46 @@
+.App {
+    background-color: black;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+.App-main{
+    margin: auto;
+}
+.App-home-main {
+    margin: 0 !important;
+}
+.home-main-top{
+    background-color: white;
+    margin: auto;
+    display: block;
+    padding: 0 !important;
+}
+
+.home-main-body {
+    padding: 0 !important;
+}
+
+.home-main-img{
+    height: 40vh;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    border: 2px solid white;
+}
+
+.socialIcons-footer{
+    max-width: 100%;
+}
+.home-description {
+    margin: auto;
+    max-width: 90%;
+    height: auto;
+}
+
+.home-card-title{
+    background-color: black !important;
+    color: white !important;
+}

@@ -1,0 +1,48 @@
+.social-icons{
+    text-align: center;
+  }
+ 
+  .fb{
+    margin: 2%;
+    color: black;
+  }
+
+  .fb:hover{
+    color: #386ddd;
+  }
+
+  .git{
+    margin: 2%;
+    color: black;
+  }
+
+  .git:hover{
+    color: #16fa01;
+  }
+
+  .twitter{
+    margin: 2%;
+    color: black;
+  }
+
+  .twitter:hover{
+    color: #00acee;
+  }
+
+  .insta{
+    margin: 2%;
+    color: black;
+  }
+
+  .insta:hover{
+    color: #c1558b;
+  }
+
+  .linkedin{
+    margin: 2%;
+    color: black;
+  }
+  
+  .linkedin:hover{
+    color: #0e76a8;
+  }
