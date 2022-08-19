@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/schufi_mafi/static/css/main.691dc4f9.chunk.css",
-    "main.js": "/schufi_mafi/static/js/main.094999c0.chunk.js",
-    "main.js.map": "/schufi_mafi/static/js/main.094999c0.chunk.js.map",
+    "main.css": "/schufi_mafi/static/css/main.d5c02e82.chunk.css",
+    "main.js": "/schufi_mafi/static/js/main.bc4d5b12.chunk.js",
+    "main.js.map": "/schufi_mafi/static/js/main.bc4d5b12.chunk.js.map",
     "runtime-main.js": "/schufi_mafi/static/js/runtime-main.1ff8d30f.js",
     "runtime-main.js.map": "/schufi_mafi/static/js/runtime-main.1ff8d30f.js.map",
     "static/css/2.f88c2240.chunk.css": "/schufi_mafi/static/css/2.f88c2240.chunk.css",
-    "static/js/2.b3e6d34e.chunk.js": "/schufi_mafi/static/js/2.b3e6d34e.chunk.js",
-    "static/js/2.b3e6d34e.chunk.js.map": "/schufi_mafi/static/js/2.b3e6d34e.chunk.js.map",
+    "static/js/2.5405a624.chunk.js": "/schufi_mafi/static/js/2.5405a624.chunk.js",
+    "static/js/2.5405a624.chunk.js.map": "/schufi_mafi/static/js/2.5405a624.chunk.js.map",
     "index.html": "/schufi_mafi/index.html",
     "static/css/2.f88c2240.chunk.css.map": "/schufi_mafi/static/css/2.f88c2240.chunk.css.map",
-    "static/css/main.691dc4f9.chunk.css.map": "/schufi_mafi/static/css/main.691dc4f9.chunk.css.map",
-    "static/js/2.b3e6d34e.chunk.js.LICENSE.txt": "/schufi_mafi/static/js/2.b3e6d34e.chunk.js.LICENSE.txt",
+    "static/css/main.d5c02e82.chunk.css.map": "/schufi_mafi/static/css/main.d5c02e82.chunk.css.map",
+    "static/js/2.5405a624.chunk.js.LICENSE.txt": "/schufi_mafi/static/js/2.5405a624.chunk.js.LICENSE.txt",
     "static/media/Ayla1.4aae9f8e.jpg": "/schufi_mafi/static/media/Ayla1.4aae9f8e.jpg",
     "static/media/Basel1.4760f19e.jpg": "/schufi_mafi/static/media/Basel1.4760f19e.jpg",
     "static/media/Community1.d05d58f8.jpg": "/schufi_mafi/static/media/Community1.d05d58f8.jpg",
@@ -40,13 +40,13 @@
     "static/media/nabel.ee97a372.png": "/schufi_mafi/static/media/nabel.ee97a372.png",
     "static/media/samer.d5f82aea.png": "/schufi_mafi/static/media/samer.d5f82aea.png",
     "static/media/sara1.e8483e56.jpg": "/schufi_mafi/static/media/sara1.e8483e56.jpg",
-    "static/media/Loading.css": "/schufi_mafi/static/media/schufimafi.dc51232b.png"
+    "static/media/Loading.css": "/schufi_mafi/static/media/schufimafi.f98cd75b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1ff8d30f.js",
     "static/css/2.f88c2240.chunk.css",
-    "static/js/2.b3e6d34e.chunk.js",
-    "static/css/main.691dc4f9.chunk.css",
-    "static/js/main.094999c0.chunk.js"
+    "static/js/2.5405a624.chunk.js",
+    "static/css/main.d5c02e82.chunk.css",
+    "static/js/main.bc4d5b12.chunk.js"
   ]
 }
