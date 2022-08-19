@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faCircleChevronLeft, 
   faCircleChevronRight, 
-  faCircleXmark
 } from '@fortawesome/free-solid-svg-icons'
 
 import './wsp-gallery.css'
@@ -50,7 +49,7 @@ const WSPGallery = ({galleryImages}) => {
                  animation={false}
                  size="lg"
                  aria-labelledby="contained-modal-title-vcenter"
-                 >
+                 centered>
             <Modal.Header closeButton>
               <Modal.Title>{galleryImages[slideNumber].title}</Modal.Title>
             </Modal.Header>

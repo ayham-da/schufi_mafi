@@ -1,5 +1,9 @@
 .social-icons{
+  display: flex;
+  justify-content: space-between;
     text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
   }
  
   .fb{
@@ -20,13 +24,13 @@
     color: #16fa01;
   }
 
-  .twitter{
+  .tiktok{
     margin: 2%;
     color: black;
   }
 
-  .twitter:hover{
-    color: #00acee;
+  .tiktok:hover{
+    color: #626161;
   }
 
   .insta{
@@ -46,3 +50,9 @@
   .linkedin:hover{
     color: #0e76a8;
   }
+
+@media screen and (max-width: 600px) {
+  .fa-2x {
+    font-size: 1.5em !important;
+  }
+}

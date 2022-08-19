@@ -24,15 +24,20 @@
 }
 
 .home-main-img{
-    height: 40vh;
     max-width: 100%;
-    margin: auto;
+    margin: 1rem auto auto auto;
     display: block;
     border: 2px solid white;
 }
+@media screen and (min-width: 1025px) {
+    .home-main-img{
+        height: 40vh;
+    }
+}
 
 .socialIcons-footer{
-    max-width: 100%;
+    max-width: 50%;
+    margin: auto;
 }
 .home-description {
     margin: auto;
@@ -43,4 +48,9 @@
 .home-card-title{
     background-color: black !important;
     color: white !important;
+}
+@media screen and (max-width: 400px) {
+    .home-card-title{
+        font-size: 1rem !important;
+    }
 }
