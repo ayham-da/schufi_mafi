@@ -9,27 +9,27 @@ const ProjektItem = props => {
     return(
     <React.Fragment>
       <li className="projekt-item">
-        <Card className="projekt-item__content" text="dark">
-          <Card.Img className="projekt-item__image" variant="top" src={props.image} alt={props.title} />
-          <Card.Body >
+        <Card className="text-start" text="dark" >
+          <Card.Img className="" variant="top" src={props.image} alt={props.title} />
+          <Card.Body>
             <div className="" >
-              <div className="card-title">
+              <div className="">
                 <h1>{props.title}</h1>
               </div>
-              <div className="card-info">
-                <p className="p-info">{props.date}, {props.ort}</p>
+              <div className="">
+                <p className="">{props.date}, {props.ort}</p>
               </div>
-              <div className="card-secondTitle">
-                <h3 className="secondTitle">{props.secondTitle}</h3>
+              <div className="">
+                <h3 className="">{props.secondTitle}</h3>
               </div>
-              <div className="card-description">
-                <p className="description">{props.description}</p>
+              <div className="">
+                <p className="">{props.description}</p>
               </div>
             </div>
           </Card.Body>
-          <div className="projekt-item__actions">
-            <Button href={props.TicketLink} variant="success"  target='_blank'> Ticket kaufen {props.price}</Button>
-          </div>
+          <Card.Footer className="text-muted">
+              <Button href={props.TicketLink} variant="success"  target='_blank'> Ticket kaufen {props.price}</Button>
+          </Card.Footer>
         </Card>
     </li>
   </React.Fragment>

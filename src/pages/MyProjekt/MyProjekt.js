@@ -18,7 +18,7 @@ const My_Projekt = [
     {
         id: 'p1',
         title: 'Layali',
-        secondTitle:'Layali',
+        secondTitle:'',
         ort:'düsseldorf',
         date:'20.07.2022',
         price:'8 €',
