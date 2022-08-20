@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card,Button}                 from 'react-bootstrap'
+import {Card, Button, Image} from 'react-bootstrap'
 import                                    'bootstrap/dist/css/bootstrap.min.css';
 import                                    './ProjektItem.css'
 
@@ -8,24 +8,22 @@ const ProjektItem = props => {
 
     return(
     <React.Fragment>
-      <li className="projekt-item">
-        <Card className="text-start" text="dark" >
-          <Card.Img className="" variant="top" src={props.image} alt={props.title} />
+      <li className="event-item">
+        <Card className="text-start mb-2 event-card" text="dark" bg='light'>
           <Card.Body>
-            <div className="" >
-              <div className="">
-                <h1>{props.title}</h1>
-              </div>
-              <div className="">
-                <p className="">{props.date}, {props.ort}</p>
-              </div>
-              <div className="">
-                <h3 className="">{props.secondTitle}</h3>
-              </div>
-              <div className="">
-                <p className="">{props.description}</p>
-              </div>
+          <Image src={props.image} className="home-main-img" alt={props.imageAlt}/>
+          <Card.Title className="event-card-title">{props.title}</Card.Title>
+          <Card.Text>
+            <div className="card-info">
+              <p className="p-info">{props.date}, {props.ort}</p>
             </div>
+            <div className="">
+              <h3 className="">{props.secondTitle}</h3>
+            </div>
+            <div className="card-description">
+              <p className="description">{props.description}</p>
+            </div>
+          </Card.Text>
           </Card.Body>
           <Card.Footer className="text-muted">
               <Button href={props.TicketLink} variant="success"  target='_blank'> Ticket kaufen {props.price}</Button>

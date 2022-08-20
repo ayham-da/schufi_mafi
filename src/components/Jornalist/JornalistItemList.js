@@ -30,6 +30,8 @@ const JornalistItemList = props => {
                         key={article.id}
                         id={article.id}
                         title={article.title}
+                        date={article.date}
+                        ort={article.ort}
                         imageUrl={article.imageUrl}
                         imageAlt={article.imageAlt}
                         description={article.description}

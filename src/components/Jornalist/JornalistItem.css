@@ -60,3 +60,32 @@
   }
 }
 
+.Jornalist-card {
+  margin: auto;
+  max-width: 90%;
+  height: auto;
+}
+
+.description {
+  font-size: 1.5rem !important;
+
+}
+.p-info {
+  font-size: 1rem !important;
+}
+.Jornalist-card-title{
+  background-color: black !important;
+  color: white !important;
+  margin-top: 10px;
+  padding: 5px;
+}
+@media screen and (max-width: 420px) {
+  .Jornalist-card-title{
+    font-size: 1rem !important;
+  }
+  .description {
+    font-size: 1.2rem !important;
+
+  }
+}
+

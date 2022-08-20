@@ -2,14 +2,13 @@ import React from 'react';
 import './MyProjekt.css';
 import Footer from '../../components/footer/footer';
 import {
-  Container,
   Row,
   Col,
 } from 'react-bootstrap';
 import Animate from 'react-smooth';
 import {Helmet} from 'react-helmet';
-import ProjektItemList            from '../../components/MyProjekt/ProjektItemList'
 import Layali from "../../assets/gallery/Layali.png"
+import ProjektItemList from "../../components/MyProjekt/ProjektItemList";
 
 
 
@@ -40,16 +39,16 @@ function MyProjekt() {
                   <meta name="description" content="SCHU FI MA FI" />
          </Helmet>
           <Animate to="1" from="0" attributeName="opacity">
-          <Container className="projekts-header" fluid={true}>
-            <Row className="projekts-main">
-              <Col  md={12}  className="projekts-main-List">
-                  <ProjektItemList items={loadedPlaces} />
-              </Col>
-            </Row>
-            <Row className="projekts-footer">
-              <Footer />
-            </Row>
-        </Container>
+              <div className="events-header">
+                  <Row className="events-main">
+                      <Col  md={12}  className="events-main-List">
+                          <ProjektItemList items={loadedPlaces} />
+                      </Col>
+                  </Row>
+                  <Row className="events-footer">
+                      <Footer />
+                  </Row>
+              </div>
         </Animate>
       </div>
     );

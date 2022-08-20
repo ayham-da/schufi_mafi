@@ -21,6 +21,8 @@ const Articles = [
         title: 'Wie zehn Syrer das Kollektiv Schu Fi Ma Fi gründeten\n' +
             ':\n' +
             'Die Erinnerung an Syrien lebendig halten',
+        ort:'düsseldorf',
+        date:'31.12.2021',
         description: 'Düsseldorf 2018 gründeten Basel Al Ali und Wisam Hero das „Kollektiv Schu Fi Ma Fi“. Die Gruppe will das Kulturleben in Düsseldorf mitgestalten und dabei die Kultur ihres syrischen Herkunftslandes präsentieren.',
         imageUrl: article1 ,
         imageAlt: 'article1',

@@ -1,16 +1,6 @@
-.yprojekts-list {
-  list-style: none;
-  padding: 0;
-  width: 90%;
-  margin: auto ;
-  padding: 0;
-  }
-
-.projekts-list {
+.events-list {
   margin: auto;
   list-style: none;
   padding: 0;
-  width: 90%;
-  max-width: 50rem;
 }
   

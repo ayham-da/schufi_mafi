@@ -13,7 +13,7 @@ const ProjektItemList = props => {
         <Card text="light">
         <Card.Body>
            <Card.Text >
-               {<h2>No Projekt found!!</h2>}
+               {<h2>No Events found!!</h2>}
            </Card.Text>
            
            </Card.Body>    
@@ -24,21 +24,21 @@ const ProjektItemList = props => {
     }else{
         return(
             <>
-            <ul className="projekts-list">
-                {props.items.map(book =>{
+            <ul className="events-list">
+                {props.items.map(event =>{
                     return(<>
                     <ProjektItem
-                        key={book.id} 
-                        id={book.id}
-                        date={book.date}
-                        ort={book.ort}
-                        price={book.price}
-                        TicketLink={book.TicketLink}
-                        image={book.imageUrl} 
-                        title={book.title}
-                        secondTitle={book.secondTitle}
-                        description={book.description} 
-                        creatorId={book.creator}
+                        key={event.id}
+                        id={event.id}
+                        date={event.date}
+                        ort={event.ort}
+                        price={event.price}
+                        TicketLink={event.TicketLink}
+                        image={event.imageUrl}
+                        title={event.title}
+                        secondTitle={event.secondTitle}
+                        description={event.description}
+                        creatorId={event.creator}
                         
                     />
                     </>

@@ -15,11 +15,11 @@ const JornalistItem = props => {
         <Card
             bg='light'
             text='dark'
-            className="mb-2 home-description"
+            className="mb-2 Jornalist-card"
         >
           <Card.Body>
             <Image src={props.imageUrl} className="home-main-img" alt={props.imageAlt}/>
-            <Card.Title className="home-card-title">{props.title}</Card.Title>
+            <Card.Title className="Jornalist-card-title">{props.title}</Card.Title>
             <Card.Text>
               <div className="card-info">
                 <p className="p-info">{props.date}, {props.ort}</p>
